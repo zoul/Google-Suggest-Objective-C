@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD380A8169EB5E800763A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380A7169EB5E800763A44 /* Foundation.framework */; };
+		0DD380B7169EB5E800763A44 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380B6169EB5E800763A44 /* SenTestingKit.framework */; };
+		0DD380BA169EB5E800763A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380A7169EB5E800763A44 /* Foundation.framework */; };
+		0DD380BD169EB5E800763A44 /* libGoogleSuggest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380A4169EB5E800763A44 /* libGoogleSuggest.a */; };
+		0DD380DC169EB75D00763A44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380DB169EB75D00763A44 /* UIKit.framework */; };
+		0DD380DD169EB75D00763A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380A7169EB5E800763A44 /* Foundation.framework */; };
+		0DD380DF169EB75D00763A44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380DE169EB75D00763A44 /* CoreGraphics.framework */; };
+		0DD380F9169EB78C00763A44 /* CCGoogleSuggest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD380F6169EB78C00763A44 /* CCGoogleSuggest.m */; };
+		0DD38102169EB79D00763A44 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD380FB169EB79D00763A44 /* CCAppDelegate.m */; };
+		0DD38103169EB79D00763A44 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD380FC169EB79D00763A44 /* Default-568h@2x.png */; };
+		0DD38104169EB79D00763A44 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD380FD169EB79D00763A44 /* Default.png */; };
+		0DD38105169EB79D00763A44 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD380FE169EB79D00763A44 /* Default@2x.png */; };
+		0DD38107169EB79D00763A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD38100169EB79D00763A44 /* main.m */; };
+		0DD38108169EB7E100763A44 /* libGoogleSuggest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380A4169EB5E800763A44 /* libGoogleSuggest.a */; };
+		0DD3810C169EB81C00763A44 /* CCSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3810A169EB81C00763A44 /* CCSearchController.m */; };
+		0DD3810D169EB81C00763A44 /* CCSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD3810B169EB81C00763A44 /* CCSearchController.xib */; };
+		0DD38110169EB99A00763A44 /* CCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD3810F169EB99A00763A44 /* CCWebViewController.m */; };
+		0DD38113169EBA8900763A44 /* CCGoogleSuggestDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD38112169EBA8900763A44 /* CCGoogleSuggestDataSource.m */; };
+		0DD38114169EBAA100763A44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD380DB169EB75D00763A44 /* UIKit.framework */; };
+		0DD38117169EBC6B00763A44 /* CCGoogleSuggestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD38116169EBC6B00763A44 /* CCGoogleSuggestResult.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD380BB169EB5E800763A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD3809B169EB5E800763A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD380A3169EB5E800763A44;
+			remoteInfo = "Google Suggest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DD380A2169EB5E800763A44 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DD380A4169EB5E800763A44 /* libGoogleSuggest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleSuggest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD380A7169EB5E800763A44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DD380B5169EB5E800763A44 /* Google Suggest Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Suggest Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD380B6169EB5E800763A44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0DD380D9169EB75D00763A44 /* Suggest Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Suggest Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD380DB169EB75D00763A44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DD380DE169EB75D00763A44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DD380F5169EB78C00763A44 /* CCGoogleSuggest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGoogleSuggest.h; path = Library/CCGoogleSuggest.h; sourceTree = "<group>"; };
+		0DD380F6169EB78C00763A44 /* CCGoogleSuggest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGoogleSuggest.m; path = Library/CCGoogleSuggest.m; sourceTree = "<group>"; };
+		0DD380F7169EB78C00763A44 /* Library-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Library-Prefix.pch"; path = "../Library/Library-Prefix.pch"; sourceTree = "<group>"; };
+		0DD380F8169EB78C00763A44 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Tests-Prefix.pch"; path = "../Library/Tests-Prefix.pch"; sourceTree = "<group>"; };
+		0DD380FA169EB79D00763A44 /* CCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCAppDelegate.h; path = Demo/CCAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0DD380FB169EB79D00763A44 /* CCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCAppDelegate.m; path = Demo/CCAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0DD380FC169EB79D00763A44 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Demo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		0DD380FD169EB79D00763A44 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Demo/Default.png; sourceTree = SOURCE_ROOT; };
+		0DD380FE169EB79D00763A44 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Demo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		0DD380FF169EB79D00763A44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Demo/Info.plist; sourceTree = SOURCE_ROOT; };
+		0DD38100169EB79D00763A44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = SOURCE_ROOT; };
+		0DD38101169EB79D00763A44 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Demo/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		0DD38109169EB81C00763A44 /* CCSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCSearchController.h; path = Demo/CCSearchController.h; sourceTree = SOURCE_ROOT; };
+		0DD3810A169EB81C00763A44 /* CCSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCSearchController.m; path = Demo/CCSearchController.m; sourceTree = SOURCE_ROOT; };
+		0DD3810B169EB81C00763A44 /* CCSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CCSearchController.xib; path = Demo/CCSearchController.xib; sourceTree = SOURCE_ROOT; };
+		0DD3810E169EB99A00763A44 /* CCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCWebViewController.h; path = Demo/CCWebViewController.h; sourceTree = SOURCE_ROOT; };
+		0DD3810F169EB99A00763A44 /* CCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCWebViewController.m; path = Demo/CCWebViewController.m; sourceTree = SOURCE_ROOT; };
+		0DD38111169EBA8900763A44 /* CCGoogleSuggestDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGoogleSuggestDataSource.h; path = Library/CCGoogleSuggestDataSource.h; sourceTree = "<group>"; };
+		0DD38112169EBA8900763A44 /* CCGoogleSuggestDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGoogleSuggestDataSource.m; path = Library/CCGoogleSuggestDataSource.m; sourceTree = "<group>"; };
+		0DD38115169EBC6B00763A44 /* CCGoogleSuggestResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCGoogleSuggestResult.h; path = Library/CCGoogleSuggestResult.h; sourceTree = "<group>"; };
+		0DD38116169EBC6B00763A44 /* CCGoogleSuggestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCGoogleSuggestResult.m; path = Library/CCGoogleSuggestResult.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD380A1169EB5E800763A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD38114169EBAA100763A44 /* UIKit.framework in Frameworks */,
+				0DD380A8169EB5E800763A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD380B1169EB5E800763A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD380B7169EB5E800763A44 /* SenTestingKit.framework in Frameworks */,
+				0DD380BA169EB5E800763A44 /* Foundation.framework in Frameworks */,
+				0DD380BD169EB5E800763A44 /* libGoogleSuggest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD380D6169EB75D00763A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD38108169EB7E100763A44 /* libGoogleSuggest.a in Frameworks */,
+				0DD380DC169EB75D00763A44 /* UIKit.framework in Frameworks */,
+				0DD380DD169EB75D00763A44 /* Foundation.framework in Frameworks */,
+				0DD380DF169EB75D00763A44 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD38099169EB5E800763A44 = {
+			isa = PBXGroup;
+			children = (
+				0DD380D4169EB6B400763A44 /* Classes */,
+				0DD380AA169EB5E800763A44 /* Supporting Files */,
+				0DD380E0169EB75D00763A44 /* Suggest Demo */,
+				0DD380A6169EB5E800763A44 /* Frameworks */,
+				0DD380A5169EB5E800763A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD380A5169EB5E800763A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD380A4169EB5E800763A44 /* libGoogleSuggest.a */,
+				0DD380B5169EB5E800763A44 /* Google Suggest Tests.octest */,
+				0DD380D9169EB75D00763A44 /* Suggest Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD380A6169EB5E800763A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD380A7169EB5E800763A44 /* Foundation.framework */,
+				0DD380B6169EB5E800763A44 /* SenTestingKit.framework */,
+				0DD380DB169EB75D00763A44 /* UIKit.framework */,
+				0DD380DE169EB75D00763A44 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD380AA169EB5E800763A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD380F7169EB78C00763A44 /* Library-Prefix.pch */,
+				0DD380F8169EB78C00763A44 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Google Suggest";
+			sourceTree = "<group>";
+		};
+		0DD380D4169EB6B400763A44 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DD38115169EBC6B00763A44 /* CCGoogleSuggestResult.h */,
+				0DD38116169EBC6B00763A44 /* CCGoogleSuggestResult.m */,
+				0DD380F5169EB78C00763A44 /* CCGoogleSuggest.h */,
+				0DD380F6169EB78C00763A44 /* CCGoogleSuggest.m */,
+				0DD38111169EBA8900763A44 /* CCGoogleSuggestDataSource.h */,
+				0DD38112169EBA8900763A44 /* CCGoogleSuggestDataSource.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0DD380E0169EB75D00763A44 /* Suggest Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0DD3810E169EB99A00763A44 /* CCWebViewController.h */,
+				0DD3810F169EB99A00763A44 /* CCWebViewController.m */,
+				0DD38109169EB81C00763A44 /* CCSearchController.h */,
+				0DD3810A169EB81C00763A44 /* CCSearchController.m */,
+				0DD3810B169EB81C00763A44 /* CCSearchController.xib */,
+				0DD380FA169EB79D00763A44 /* CCAppDelegate.h */,
+				0DD380FB169EB79D00763A44 /* CCAppDelegate.m */,
+				0DD380FC169EB79D00763A44 /* Default-568h@2x.png */,
+				0DD380FD169EB79D00763A44 /* Default.png */,
+				0DD380FE169EB79D00763A44 /* Default@2x.png */,
+				0DD38101169EB79D00763A44 /* Prefix.pch */,
+				0DD380FF169EB79D00763A44 /* Info.plist */,
+				0DD38100169EB79D00763A44 /* main.m */,
+			);
+			path = "Suggest Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD380A3169EB5E800763A44 /* Google Suggest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD380C9169EB5E800763A44 /* Build configuration list for PBXNativeTarget "Google Suggest" */;
+			buildPhases = (
+				0DD380A0169EB5E800763A44 /* Sources */,
+				0DD380A1169EB5E800763A44 /* Frameworks */,
+				0DD380A2169EB5E800763A44 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Suggest";
+			productName = "Google Suggest";
+			productReference = 0DD380A4169EB5E800763A44 /* libGoogleSuggest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0DD380B4169EB5E800763A44 /* Google Suggest Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD380CC169EB5E800763A44 /* Build configuration list for PBXNativeTarget "Google Suggest Tests" */;
+			buildPhases = (
+				0DD380B0169EB5E800763A44 /* Sources */,
+				0DD380B1169EB5E800763A44 /* Frameworks */,
+				0DD380B2169EB5E800763A44 /* Resources */,
+				0DD380B3169EB5E800763A44 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD380BC169EB5E800763A44 /* PBXTargetDependency */,
+			);
+			name = "Google Suggest Tests";
+			productName = "Google SuggestTests";
+			productReference = 0DD380B5169EB5E800763A44 /* Google Suggest Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0DD380D8169EB75D00763A44 /* Suggest Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD380F2169EB75D00763A44 /* Build configuration list for PBXNativeTarget "Suggest Demo" */;
+			buildPhases = (
+				0DD380D5169EB75D00763A44 /* Sources */,
+				0DD380D6169EB75D00763A44 /* Frameworks */,
+				0DD380D7169EB75D00763A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suggest Demo";
+			productName = "Suggest Demo";
+			productReference = 0DD380D9169EB75D00763A44 /* Suggest Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD3809B169EB5E800763A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tomáš Znamenáček";
+			};
+			buildConfigurationList = 0DD3809E169EB5E800763A44 /* Build configuration list for PBXProject "Google Suggest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD38099169EB5E800763A44;
+			productRefGroup = 0DD380A5169EB5E800763A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD380A3169EB5E800763A44 /* Google Suggest */,
+				0DD380B4169EB5E800763A44 /* Google Suggest Tests */,
+				0DD380D8169EB75D00763A44 /* Suggest Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD380B2169EB5E800763A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD380D7169EB75D00763A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD38103169EB79D00763A44 /* Default-568h@2x.png in Resources */,
+				0DD38104169EB79D00763A44 /* Default.png in Resources */,
+				0DD38105169EB79D00763A44 /* Default@2x.png in Resources */,
+				0DD3810D169EB81C00763A44 /* CCSearchController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD380B3169EB5E800763A44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD380A0169EB5E800763A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD380F9169EB78C00763A44 /* CCGoogleSuggest.m in Sources */,
+				0DD38113169EBA8900763A44 /* CCGoogleSuggestDataSource.m in Sources */,
+				0DD38117169EBC6B00763A44 /* CCGoogleSuggestResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD380B0169EB5E800763A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD380D5169EB75D00763A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD38102169EB79D00763A44 /* CCAppDelegate.m in Sources */,
+				0DD38107169EB79D00763A44 /* main.m in Sources */,
+				0DD3810C169EB81C00763A44 /* CCSearchController.m in Sources */,
+				0DD38110169EB99A00763A44 /* CCWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD380BC169EB5E800763A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD380A3169EB5E800763A44 /* Google Suggest */;
+			targetProxy = 0DD380BB169EB5E800763A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DD380C7169EB5E800763A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DD380C8169EB5E800763A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD380CA169EB5E800763A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Google_Suggest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/Library-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GoogleSuggest;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0DD380CB169EB5E800763A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Google_Suggest.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/Library-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = GoogleSuggest;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0DD380CD169EB5E800763A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/Tests-Prefix.pch";
+				PRODUCT_NAME = "Google Suggest Tests";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0DD380CE169EB5E800763A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library/Tests-Prefix.pch";
+				PRODUCT_NAME = "Google Suggest Tests";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0DD380F3169EB75D00763A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/Prefix.pch;
+				INFOPLIST_FILE = Demo/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DD380F4169EB75D00763A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Demo/Prefix.pch;
+				INFOPLIST_FILE = Demo/Info.plist;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD3809E169EB5E800763A44 /* Build configuration list for PBXProject "Google Suggest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD380C7169EB5E800763A44 /* Debug */,
+				0DD380C8169EB5E800763A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD380C9169EB5E800763A44 /* Build configuration list for PBXNativeTarget "Google Suggest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD380CA169EB5E800763A44 /* Debug */,
+				0DD380CB169EB5E800763A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD380CC169EB5E800763A44 /* Build configuration list for PBXNativeTarget "Google Suggest Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD380CD169EB5E800763A44 /* Debug */,
+				0DD380CE169EB5E800763A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD380F2169EB75D00763A44 /* Build configuration list for PBXNativeTarget "Suggest Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD380F3169EB75D00763A44 /* Debug */,
+				0DD380F4169EB75D00763A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD3809B169EB5E800763A44 /* Project object */;
+}
